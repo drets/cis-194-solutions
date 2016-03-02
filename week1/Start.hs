@@ -1,5 +1,7 @@
 -- Description: http://www.seas.upenn.edu/~cis194/spring13/hw/01-intro.pdf
 
+module Start where
+
 -- Exercise 1
 
 toDigitsRev :: Integer -> [Integer]

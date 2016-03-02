@@ -1,9 +1,8 @@
+{-# OPTIONS_GHC -Wall #-}
 -- Description: http://www.seas.upenn.edu/~cis194/spring13/hw/02-ADTs.pdf
 -- Log: http://www.seas.upenn.edu/~cis194/spring13/extras/02-ADTs/Log.hs
 -- File name: LogAnalysis.hs
 
-
-{-# OPTIONS_GHC -Wall #-}
 module LogAnalysis where
 
 import Log
@@ -51,3 +50,4 @@ whatWentWrong xs = [ msg | LogMessage (Error s) _ msg <- inOrder (build xs), s >
 -- Exercise 6
 -- λ> testWhatWentWrong parse whatWentWrong "error.log"
 -- ["Mustardwatch opened, please close for proper functioning!","All backup mustardwatches are busy","Depletion of mustard stores detected!","Hard drive failure: insufficient mustard","All backup mustardwatches are busy","Twenty seconds remaining until out-of-mustard condition","Ten seconds remaining until out-of-mustard condition","Empty mustard reservoir! Attempting to recover...","Recovery failed! Initiating shutdown sequence"]
+-- mustard - hacker name
